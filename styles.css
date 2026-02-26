@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a1a2e;
+    background-color: #f9f9f9;
+}
+
+
+.encabezado-sitio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6a0dad;
+    padding: 0 2.5rem;
+    height: 70px;
+    gap: 2rem;
+}
+
+.logo-sitio h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+
+.navegacion-principal ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navegacion-principal ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.navegacion-principal ul li a:hover {
+    opacity: 0.75;
+}
+
+
+.formulario-busqueda {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.formulario-busqueda input {
+    padding: 0.45rem 1rem;
+    border: 1.5px solid #ffffff;
+    border-radius: 6px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 0.9rem;
+    outline: none;
+    width: 220px;
+}
+
+.formulario-busqueda input::placeholder {
+    color: #aaa;
+}
+
+.formulario-busqueda button {
+    background: transparent;
+    border: none;
+    color: #e0a520;
+    cursor: pointer;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.formulario-busqueda button svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+.contenido-principal {
+    background-color: #ffffff;
+    padding: 4rem 5%;
+}
+
+.seccion-destacada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.texto-destacado {
+    flex: 1;
+    max-width: 480px;
+}
+
+.texto-destacado h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #1a1a2e;
+    margin-bottom: 1.2rem;
+}
+
+.texto-destacado h2 span {
+    color: #1a1a2e;
+}
+
+.texto-destacado p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.acciones-destacadas {
+    display: flex;
+    gap: 1rem;
+}
+
+.acciones-destacadas button {
+    background-color: #f0b429;
+    color: #1a1a2e;
+    border: none;
+    padding: 0.75rem 1.6rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
